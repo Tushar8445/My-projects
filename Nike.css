@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+.main{
+    height:100%;
+    width:100%;
+    background-color:#D0D4D5;
+    position:relative;
+}
+.nav{
+    height:90px;
+    padding:0 50px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav img{
+ height:40px;
+ margin-right: 170px;
+}
+.nav-part1{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.nav-part1 h5{
+    margin-right:50px;
+    font-size:17px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-part2 i{
+    margin-right:50px;
+    font-size:17px;
+}
+.content{
+    width:100%;
+    height:calc(100% - 90px);
+    /* background-color: red; */
+    display:flex;
+    position:relative;
+}
+.left{
+    width:40%;
+    height:100%;
+    /* background-color: blueviolet; */
+    padding:40px 90px;
+}
+.left h5{
+    font-size:20px;
+    color:#535353;
+    margin-bottom: 30px;
+}
+.left p{
+    font-size:15px;
+    line-height:20px;
+    width:100%;
+    margin-bottom: 60px;
+}
+.left h1{
+    font-size:50px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.left button{
+    background-color: #fff;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight:600;
+    padding:10px 25px;
+    border:2px solid black;
+    border-radius:25px;
+    border-top-left-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.right{
+    width:60%;
+    height:100%;
+    /* background-color: #f28b8b; */
+    position:relative;
+    padding: 110px;
+    white-space: nowrap;
+    overflow: auto;
+
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+.elem{
+    height:350px;
+    width: 250px;
+    background-color: #fff;
+    position:relative;
+    border-radius:10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display:inline-block;
+    margin-right: 15px;
+    
+}
+.elem img{
+height:70%;
+width:100%;
+top:15%;
+object-fit: contain;
+position:absolute;
+padding:20px 25px;
+}
+.elem h4{
+    font-size:14px;
+    position:absolute;
+    bottom:1%;
+    right:0%;
+    background-color: #D0D4D5;
+    padding:10px 10px;
+    border-radius:6px;
+}
+.elem h5{
+    font-size:12px;
+    position:absolute;
+    bottom:13.4%;
+    right:0%;
+    background-color: #000;
+    color:#fff;
+    font-weight:500;
+    padding:10px 10px;
+    border-radius:6px;
+}
